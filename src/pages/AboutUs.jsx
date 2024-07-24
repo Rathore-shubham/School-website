@@ -14,7 +14,7 @@ const AboutUs = () => {
         <div className="flex flex-wrap -mx-4">
           <div className="w-full lg:w-1/2 px-4 mb-8 lg:mb-0">
             <img
-              src="https://via.placeholder.com/600x400"
+              src="https://images.pexels.com/photos/357271/pexels-photo-357271.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt="School Building"
               className="w-full h-auto rounded-lg shadow-lg"
             />

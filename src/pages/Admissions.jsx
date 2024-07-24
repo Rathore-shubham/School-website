@@ -27,7 +27,7 @@ const Admissions = () => {
           </div>
           <div className="w-full lg:w-1/2 px-4 mb-8 lg:mb-0">
             <img
-              src="https://via.placeholder.com/600x400"
+              src="https://images.pexels.com/photos/207756/pexels-photo-207756.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt="Admissions"
               className="w-full h-auto rounded-lg shadow-lg"
             />

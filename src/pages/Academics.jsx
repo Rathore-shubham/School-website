@@ -4,32 +4,32 @@ const academicPrograms = [
   {
     name: 'Program 1',
     title: 'Description of the academic program. This program offers comprehensive courses in various subjects.',
-    image: 'https://via.placeholder.com/400x300',
+    image: 'https://images.pexels.com/photos/3401403/pexels-photo-3401403.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
     name: 'Program 2',
     title: 'Description of the academic program. This program offers comprehensive courses in various subjects.',
-    image: 'https://via.placeholder.com/400x300',
+    image: 'https://images.pexels.com/photos/1206101/pexels-photo-1206101.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
     name: 'Program 3',
     title: 'Description of the academic program. This program offers comprehensive courses in various subjects.',
-    image: 'https://via.placeholder.com/400x300',
+    image: 'https://images.pexels.com/photos/159579/crayons-coloring-book-coloring-book-159579.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
     name: 'Program 4',
     title: 'Description of the academic program. This program offers comprehensive courses in various subjects.',
-    image: 'https://via.placeholder.com/400x300',
+    image: 'https://images.pexels.com/photos/5088008/pexels-photo-5088008.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
     name: 'Program 5',
     title: 'Description of the academic program. This program offers comprehensive courses in various subjects.',
-    image: 'https://via.placeholder.com/400x300',
+    image: 'https://images.pexels.com/photos/1165607/pexels-photo-1165607.jpeg?auto=compress&cs=tinysrgb&w=300',
   },
   {
     name: 'Program 6',
     title: 'Description of the academic program. This program offers comprehensive courses in various subjects.',
-    image: 'https://via.placeholder.com/400x300',
+    image: 'https://images.pexels.com/photos/2116469/pexels-photo-2116469.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
   }
 ];
 

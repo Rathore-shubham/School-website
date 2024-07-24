@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -13,24 +13,22 @@ import ContactUs from './pages/ContactUs';
 
 const App = () => {
   return (
-    <Router>
-      <div className="flex flex-col min-h-screen ">
-        <Navbar />
-        <main className="flex-grow">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about-us" element={<AboutUs />} />
-            <Route path="/academics" element={<Academics />} />
-            <Route path="/admissions" element={<Admissions />} />
-            <Route path="/faculty" element={<Faculty />} />
-            <Route path="/students" element={<Students />} />
-            <Route path="/gallery" element={<Gallery />} />
-            <Route path="/contact-us" element={<ContactUs />} />
-          </Routes>
-        </main>
-        <Footer />
-      </div>
-    </Router>
+    <div className="flex flex-col min-h-screen">
+      <Navbar />
+      <main className="flex-grow">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/academics" element={<Academics />} />
+          <Route path="/admissions" element={<Admissions />} />
+          <Route path="/faculty" element={<Faculty />} />
+          <Route path="/students" element={<Students />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/contact-us" element={<ContactUs />} />
+        </Routes>
+      </main>
+      <Footer />
+    </div>
   );
 };
 
